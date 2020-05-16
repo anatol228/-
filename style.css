@@ -1,0 +1,44 @@
+.bl{
+    background-color: deepskyblue;
+    width: 600px;
+    border-radius: 5px;
+}
+.tittle{
+    font-size: 20px;
+    font-family: SF Pro Display;
+    width: 240px;
+    border-bottom: 2px solid black;
+    padding: 10px;
+
+}
+.avatar{
+    width: 150px;
+    height: 150px; 
+    background-image: url(2b566575-4089-4fd2-be84-c957ac1f8227.jpg);
+    border-radius: 50%;
+    border: 2px solid black;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.box{
+    display: flex;
+}
+.left{
+    width: 200px;
+      display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.right{
+    width:400px;
+}
+.about{
+    list-style: none;
+}
+.about__item{
+    display: flex;
+}
+.param{
+    margin-right: 20px;
+}
